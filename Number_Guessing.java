@@ -35,6 +35,7 @@ public class Number_Guessing {
 				System.out.println("Congrats!! You guessed right");
 				points+=10;
 				System.out.println("Your score is "+points);
+				break;
 			}
 			else if (guess>num && i!=rounds-1) {
 				System.out.println("Oops! Number is less than"+guess);
